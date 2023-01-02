@@ -1,0 +1,44 @@
+p{
+color:blue;}
+body{
+background-color:lightgreen;
+}
+.card{
+padding:25px;
+background-color:white;
+width:420;
+ box-shadow: 10px 10px 8px #888888;
+
+
+}
+.wrap{
+display: flex;
+    align-items: center;
+  justify-content: center;}
+
+input[type=text]{
+width:400px;
+
+}
+
+input[type=text]:hover{border:solid;}
+textarea{
+width:400px;
+border:solid ;
+border-width: thin;
+}
+select{
+width:400px;
+
+}
+select:hover{border:solid ;}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  width:400px;
+  border: solid;
+  color: black;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
